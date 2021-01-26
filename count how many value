@@ -1,0 +1,32 @@
+
+=====================================================================
+function countOnline(people) {
+
+
+
+ let onlineUsers = 0;
+  for(let user in people){
+    if(people[user].online === true){
+      onlineUsers = onlineUsers + 1;
+    }
+  }
+  return onlineUsers; 
+}
+ 
+ 
+ 
+ =====================================================================
+ var users={
+  Alan: {
+    online: false
+  },
+  Jeff: {
+    online: true
+  },
+  Sarah: {
+    online: false
+  }
+}
+
+
+ console.log(countOnline(users))
