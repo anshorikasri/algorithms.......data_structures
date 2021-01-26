@@ -1,0 +1,38 @@
+===============================================================================
+
+function getArrayOfUsers(obj) {
+  // Only change code below this line
+return Object.keys(obj);
+
+
+  // Only change code above this line
+}
+=================================================================================
+
+
+let users = {
+  budi: {
+    age: 27,
+    online: false
+  },
+  bela: {
+    age: 32,
+    online: true
+  },
+  Sarah: {
+    age: 48,
+    online: false
+  },
+  Ryan: {
+    age: 19,
+    online: true
+  }
+};
+
+===================================================================================
+
+console.log(getArrayOfUsers(users));
+
+===================================================================================
+
+//   [ 'budi', 'bela', 'Sarah', 'Ryan' ]
