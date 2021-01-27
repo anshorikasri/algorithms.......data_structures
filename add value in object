@@ -1,0 +1,36 @@
+=====================================================
+function addFriend(userObj, friend) {
+    userObj.data.friends.push(friend)
+    return userObj.data.friends
+}
+
+
+
+=====================================================
+
+let user = {
+  name: 'aan',
+  age: 23,
+  data: {
+    username: 'aan',
+    organization: 'freeCodeCamp',
+    friends: [
+      'fahmi',
+      'yani',
+      'ira'
+    ],
+    location: {
+      city: 'tandun',
+      state: 'riau',
+    }
+  }
+};
+
+
+
+=====================================================
+console.log(addFriend(user, 'iin'));
+
+
+=====================================================
+// [ 'fahmi', 'yani', 'ira', 'iin' ]
