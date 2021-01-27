@@ -1,0 +1,37 @@
+================================================
+function kalimat(str){
+  let kata=str.split(' ');
+  let max=0;
+
+  for(let i=0; i<kata.length; i++){
+    if(kata[i].length>max){
+      max=kata[i].length;
+    }
+  }
+  return max;
+}
+==================================================
+
+console.log(kalimat('saya coba coba sayaaaa'));
+
+==================================================
+
+// 7
+
+
+
+
+
+
+
+
+///////////////////////////////////////////////////
+explaination:
+    var str='saya coba coba sayaaaa'
+     let kata=str.split(' ');   // ['saya', 'coba', 'coba', 'sayaaaa']
+
+     kata[0]  // 'saya'
+     kata[1]  // 'coba'
+     kata[1]  // 'coba'
+     kata[2]  // 'sayaaaa'
+     kata[3]  //
