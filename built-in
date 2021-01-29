@@ -1,0 +1,24 @@
+==================================================================
+var b= Array(4);
+
+console.log(b);  // [ , , ,  ]
+
+
+
+==================================================================
+console.log(b.fill("saya"));   //[ 'saya', 'saya', 'saya', 'saya' ]
+
+
+
+==================================================================
+console.log(b.join(""));                         //sayasayasayasaya
+
+console.log(b.join("_"));                       //aya_saya_saya_saya
+
+
+==================================================================
+function repeatStringNumTimes(str, num) {
+    return num > 0 ? Array(num).fill(str).join("") : "";
+}
+
+console.log(repeatStringNumTimes("abc", 4));         //abcabcabcabc
