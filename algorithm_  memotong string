@@ -1,0 +1,19 @@
+==================================================
+
+function memotongString(str, num) {
+    if(str.length > num){ 
+        return str.substring(0, num) + "..." 
+    }else {
+        return str;
+    }
+};
+
+
+====================================================
+console.log(memotongString("coba saja", 8));     //coba saj...
+
+====================================================
+console.log(memotongString("coba saja", 9));     // coba saja
+
+====================================================
+console.log(memotongString("coba saja", 10));     // coba saja
