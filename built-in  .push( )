@@ -1,0 +1,11 @@
+function push(array, num){
+    var array,
+        n=array.length;
+
+    array[n]=num
+    console.log(array);
+}
+
+
+============================================
+push([1,2,3,4],6)    //[ 1, 2, 3, 4, 6 ]
