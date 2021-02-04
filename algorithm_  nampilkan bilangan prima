@@ -1,0 +1,21 @@
+================================================================================
+function bilprim(num){
+    
+    var bilangan=0;
+    for (var bil = 2; bil <= num; bil++){
+         if(bil == 2 || bil == 3 ||bil == 5 || bil == 7){
+             bilangan=bilangan+bil;
+             
+         }else if (bil % 2 == 0 || bil % 3 == 0 || bil % 5 == 0 || bil % 7 == 0){
+             var isPrime=0; 
+
+         }else {
+            bilangan=bilangan+bil 
+         };
+    };
+    return console.log(bilangan);
+};
+
+===============================================================================
+bilprim(10); //17 =2+3+5+7
+bilprim(13); //41 =2+3+5+7+11+13
