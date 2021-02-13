@@ -1,0 +1,20 @@
+function findElement(arr, func) {
+  // let num = 0;
+  // return num;
+  for(let i=0; i< arr.length; i++){
+      if (func(arr[i])){
+       //console.log(arr[i])
+      return (arr[i])
+    };
+  };
+};
+
+
+findElement([ 4, 8, 5, 9, 10], num => num % 2 !==0 );
+
+
+
+/////////////////////////////////////////////////////////
+return = 5
+
+? ket: kenapa hanya menampilkan sekali scanning,, (kenapa hanya menampilkan 5,, padahal 9 juga merupakan jawaban)?
