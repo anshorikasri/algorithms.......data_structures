@@ -1,0 +1,9 @@
+let petString = "saya has a pet cat.";
+let petRegex = /cat| bird| fish/; 
+console.log(petRegex.test(petString));    //true
+
+
+
+let a = "saya has a pet cat.";
+let b = /cat| bird| fish/; 
+console.log(b.test(a));                    //true
