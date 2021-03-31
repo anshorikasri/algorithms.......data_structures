@@ -1,0 +1,4 @@
+let b = "coba fisika";
+let c = /[a-z]/gi;
+==========================================
+console.log(b.match(c))         // [ 'c', 'o', 'b', 'a', 'f', 'i', 's', 'i', 'k', 'a' ]
