@@ -1,0 +1,7 @@
+penggunaan dot (.) pada penggalan kata, seperti: daun, sukun, susun, racun
+=================================================================
+
+let b = "ayo makan daun sukun disusun tapi gak pake racun !";
+let unRegex = /.un/
+=================================================================
+console.log(unRegex.test(b))
