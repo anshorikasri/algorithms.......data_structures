@@ -1,0 +1,13 @@
+let b = "Beware Of bugs in the above code";
+let c = /[aiueo]/g;
+=====================================================
+global, (selagi a, i, u, e, o, dan font diperhatikan)
+=====================================================
+console.log(b.match(c))      //[ 'e', 'a', 'e', 'u', 'i', 'e', 'a', 'o', 'e', 'o', 'e' ]
+
+
+
+let b = "Beware Of bugs in the above code";
+let c = /[aiueo]/ig;
+=====================================================
+console.log(b.match(c))      //[ 'e', 'a', 'e', 'O', 'u', 'i', 'e', 'a', 'o', 'e', 'o', 'e' ]
