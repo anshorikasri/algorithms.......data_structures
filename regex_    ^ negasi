@@ -1,0 +1,4 @@
+let cth = "6 abicudef0gh";
+let regex = /[^aiueo0-9]/ig;     //selain aiueo dan angka 0 sampai 9 termasuk spasi
+====================================================================
+console.log(cth.match(regex))    //[ ' ', 'b', 'c', 'd', 'f', 'g', 'h' ]
